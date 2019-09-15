@@ -17,6 +17,7 @@
 
   <!-- Custom styles for this template-->
   <link href="{{ asset('admin/sb-admin-2.min.css') }}" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
   <link href="{{ asset('admin/dataTables.bootstrap4.min.css') }}" rel="stylesheet">
 
 

@@ -5,7 +5,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Bipin's Demo <sup>TM</sup></div>
+        <div class="sidebar-brand-text mx-3">SkeinSoft <sup>TM</sup></div>
       </a>
 
       <!-- Divider -->
@@ -53,25 +53,25 @@
       <li class="nav-item">
         <a class="nav-link" href="charts.html">
           <i class="fas fa-fw fa-chart-area"></i>
-          <span>Menu 1</span></a>
+          <span>Hostings Management</span></a>
       </li>
 
       <li class="nav-item">
         <a class="nav-link" href="charts.html">
           <i class="fas fa-fw fa-chart-area"></i>
-          <span>Menu 2</span></a>
+          <span>Domains Management</span></a>
       </li>
 
       <li class="nav-item">
         <a class="nav-link" href="charts.html">
           <i class="fas fa-fw fa-chart-area"></i>
-          <span>Menu 3</span></a>
+          <span>Clients Management</span></a>
       </li>
 
       <li class="nav-item">
         <a class="nav-link" href="charts.html">
           <i class="fas fa-fw fa-chart-area"></i>
-          <span>Menu 4</span></a>
+          <span>Project Management</span></a>
       </li>
 
       <!-- Divider -->

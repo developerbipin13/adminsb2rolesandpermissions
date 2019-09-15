@@ -17,6 +17,7 @@
                     <h4>Client Management Login</h4>
                   </div>
                   <form class="user" action="{{ url('login') }}" method="POST">
+                    @include('flash')
                     @csrf
                     <div class="form-group">
                       <input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address..." name="email">
@@ -26,8 +27,14 @@
                     </div>
                     <button class="btn btn-primary btn-user btn-block" type="submit">Login</button>
                     <hr>
+                    <a href="{{ url('auth/google') }}" class="btn btn-google btn-user btn-block">
+                      <i class="fab fa-google fa-fw"></i> Login with Google
+                    </a>
                   </form>
                   <hr>
+                  <div class="text-center">
+                    <a class="small" href="{{ route('password.request') }}">Forgot Password?</a>
+                  </div>
                   <div class="text-center">
                     <a class="small" href="{{ url('/register') }}">Create an Account!</a>
                   </div>

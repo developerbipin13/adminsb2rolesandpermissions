@@ -36,6 +36,9 @@
                 </div>
                <button class="btn btn-primary btn-user btn-block" type="submit">Register</button>
                 <hr>
+                <a href="{{ url('auth/google') }}" class="btn btn-google btn-user btn-block">
+                  <i class="fab fa-google fa-fw"></i> Register with Google
+                </a>
               </form>
               <hr>
               <div class="text-center">

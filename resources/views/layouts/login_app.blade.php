@@ -17,12 +17,12 @@
 
   <!-- Custom styles for this template-->
   <link href="{{ asset('admin/sb-admin-2.min.css') }}" rel="stylesheet">
-
+<style type="text/css">
+</style>
 </head>
 
 <body id="page-top">
   @yield('content')
-
   <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
 
   <!-- Custom scripts for all pages-->
